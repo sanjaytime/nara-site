@@ -1,0 +1,18 @@
+// Custom.scss
+// Include parts of Bootstrap
+
+// Required
+@import "../static/bootstrap/scss/functions";
+@import "../static/bootstrap/scss/variables";
+@import "../static/bootstrap/scss/mixins";
+
+// Optional
+@import "../static/bootstrap/scss/reboot";
+@import "../static/bootstrap/scss/type";
+@import "../static/bootstrap/scss/images";
+//@import "../node_modules/bootstrap/scss/code";
+@import "../static/bootstrap/scss/grid";
+
+// Your variable overrides
+$body-bg: #000;
+$body-color: #111;
