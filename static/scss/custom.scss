@@ -2,16 +2,16 @@
 // Include parts of Bootstrap
 
 // Required
-@import "../static/bootstrap/scss/functions";
-@import "../static/bootstrap/scss/variables";
-@import "../static/bootstrap/scss/mixins";
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
 
 // Optional
-@import "../static/bootstrap/scss/reboot";
-@import "../static/bootstrap/scss/type";
-@import "../static/bootstrap/scss/images";
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
 //@import "../node_modules/bootstrap/scss/code";
-@import "../static/bootstrap/scss/grid";
+@import "../bootstrap/scss/grid";
 
 // Your variable overrides
 $body-bg: #000;
