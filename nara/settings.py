@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost',
                  'nara-site.herokuapp.com',
-                 'sanjaynara.com']
+                 'sanjaynara.com',
+                 'www.sanjaynara.com']
 
 
 # Application definition
