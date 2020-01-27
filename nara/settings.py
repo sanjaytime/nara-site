@@ -25,10 +25,9 @@ SECRET_KEY = '!yast_9_qc1^5klefa#ez#%y+9n7hu@%gea4g(!$q+hva01u5x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.srh3htm4mn.us-west-2.elasticbeanstalk.com',
-                 'localhost',
-                 'eb-django-app-dev.elasticbeanstalk.com',
-                 'shrouded-fortress-29989.herokuapp.com']
+ALLOWED_HOSTS = ['localhost',
+                 'nara-site.herokuapp.com',
+                 'sanjaynara.com']
 
 
 # Application definition
