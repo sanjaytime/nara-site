@@ -17,9 +17,3 @@ class Comment(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     post = models.ForeignKey('Post', on_delete=models.CASCADE)
 
-# class MarkDownPost(models.Model):
-#     title = models.CharField(max_length=255)
-#     body = MarkdownxField()
-#     created_on = models.DateTimeField(auto_now_add=True)
-#     last_modified = models.DateTimeField(auto_now=True)
-#     categories = models.ManyToManyField('PostCategory', related_name='posts')
