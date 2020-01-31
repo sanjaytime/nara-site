@@ -11,7 +11,10 @@
         </a>&nbsp;
         {% endfor %}
     </small>
-    <p>{{ post.body | linebreaks }}</p>
+    <div id="blog">
+        <p class="card-text" id="post"> {{ post.formatted_markdown|safe }} </p>
+        <div class="text-muted text-right" style="margin-top: 4rem"> {{ post.created_date }}</div>
+    </div>
     <h3>Leave a comment:</h3>
     <form action="/blog/{{ post.pk }}/" method="post">
         {% csrf_token %}

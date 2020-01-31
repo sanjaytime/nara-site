@@ -1,5 +1,6 @@
 from django.db import models
 from markdownx.models import MarkdownxField
+from markdownx.utils import markdownify
 
 class Category(models.Model):
     name = models.CharField(max_length=20)
@@ -10,6 +11,9 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     last_modified = models.DateTimeField(auto_now=True)
     categories = models.ManyToManyField('Category', related_name='posts')
+
+    def formatted_markdown(self):
+        return markdownify(self.body)
 
 class Comment(models.Model):
     author = models.CharField(max_length=60)
