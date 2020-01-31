@@ -151,3 +151,7 @@ CORS_ORIGIN_WHITELIST = (
 
 # Markdownx customization stuff
 MARKDOWNX_MARKDOWNIFY_FUNCTION = 'markdownx.utils.markdownify'
+
+MARKDOWNX_MARKDOWN_EXTENSIONS = [
+    'markdown.extensions.extra'
+]
