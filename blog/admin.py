@@ -5,7 +5,7 @@ from markdownx.admin import MarkdownxModelAdmin
 
 class PostAdmin(MarkdownxModelAdmin):
     list_display = ('title', 'created_on', 'last_modified')
-    list_filter = ('created_date', 'mod_date')
+    list_filter = ('created_on', 'last_modified')
     search_fields = ('title',)
 
 class CategoryAdmin(admin.ModelAdmin):
