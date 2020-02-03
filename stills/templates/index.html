@@ -1,9 +1,15 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_content %}
-<div class="col-md-8 offset-md-2">
-  <h1>Sanjay Nara</h1>
-<body>
-    What's good with it?
-</body>
+  <h1 class="center">Hello!</h1>
+    <img src="{% static  '/img/me.jpg' %}" alt="me" class="center img-fluid rounded-circle h-25">
+    <div class="pb-2"></div>
+    <body class="text-center">
+    I'm Sanjay Narayanan (long for "Sanjay Nara").  I am a business intelligence analyst at Chegg, and an audio engineer and producer.
+    </body>
+    <div class="pb-2"></div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <a href="https://github.com/sanjaytime" class="fa fa-github fa-2x btn"></a>
+    <a href="https://www.instagram.com/sanjaynara_" class="fa fa-instagram fa-2x btn"></a>
+
 {% endblock %}
