@@ -157,4 +157,4 @@ MARKDOWNX_MARKDOWN_EXTENSIONS = [
     'markdown.extensions.extra'
 ]
 
-MEDIA_ROOT=os.path.join(BASE_DIR, 'static_to_collect')
+MEDIA_ROOT=os.path.join(BASE_DIR, 'static/')
