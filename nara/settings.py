@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'todo',
     'projects',
     'blog',
-    'stills'
+    'stills',
+    'beats'
 ]
 
 MIDDLEWARE = [

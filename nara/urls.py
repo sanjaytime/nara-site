@@ -34,12 +34,13 @@ from todo import views
 # )
 
 
-# noinspection PyPackageRequirements
 urlpatterns = [
     path('',include('stills.urls')),
     path('projects/', include('projects.urls')),
     path('admin/', admin.site.urls),
     # path("projects/", include("projects.urls")),
     path("blog/", include("blog.urls")),
+    path('beats/', include('beats.urls')),
     path("markdownx/", include('markdownx.urls')),
 ]
+# noinspection PyPackageRequirements
