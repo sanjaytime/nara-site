@@ -21,8 +21,8 @@ def blog_category(request, category):
     }
     return render(request, "blog_category.html", context)
 
-def post_detail(request, pk):
-    post = Post.objects.get(pk=pk)
+def post_detail(request, title):
+    post = Post.objects.get(title=title)
 
     form = CommentForm()
     if request.method == 'POST':
