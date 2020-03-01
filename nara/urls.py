@@ -42,5 +42,6 @@ urlpatterns = [
     path("blog/", include("blog.urls")),
     path('beats/', include('beats.urls')),
     path("markdownx/", include('markdownx.urls')),
+    path('basicmodel/', include('basicmodel.urls'))
 ]
 # noinspection PyPackageRequirements

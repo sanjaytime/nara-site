@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'projects',
     'blog',
     'stills',
-    'beats'
+    'beats',
+    'basicmodel'
 ]
 
 MIDDLEWARE = [
@@ -159,3 +160,5 @@ MARKDOWNX_MARKDOWN_EXTENSIONS = [
 ]
 
 MEDIA_ROOT=os.path.join(BASE_DIR, 'static/')
+
+MODEL_ROOT = os.path.join(BASE_DIR, 'models')
