@@ -11,6 +11,7 @@ Django>=2.2.9
 djangorestframework
 django-markdownx
 dj_static
+dj_database_url==0.5.0
 docker==3.7.3
 docker-compose==1.23.2
 docker-pycreds==0.4.0
