@@ -1,6 +1,6 @@
 numpy==1.18.1
 dj_database_url==0.5.0
-Django==2.1.5
+Django==2.2.10
 requests==2.20.1
 pandas==1.0.1
 scikit_learn==0.22.2.post1
