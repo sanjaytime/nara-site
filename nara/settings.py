@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'projects',
     'blog',
     'stills',
-    'beats',
+    'music',
 ]
 
 MIDDLEWARE = [

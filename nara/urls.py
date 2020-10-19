@@ -40,7 +40,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path("projects/", include("projects.urls")),
     path("blog/", include("blog.urls")),
-    path('beats/', include('beats.urls')),
+    path('music/', include('music.urls')),
     path("markdownx/", include('markdownx.urls')),
     path('basicmodel/', include('basicmodel.urls'))
 ]
