@@ -29,6 +29,6 @@ document.getElementById('emailButton').addEventListener('click', function(){
   selection.removeAllRanges();
 
   document.body.removeChild(textarea);
-  alert("Copied my email address! (sanjay@sanjaynara.com)");
+  alert("Copied my email address! (sanjay1narayanan@gmail.com)");
 
 })
